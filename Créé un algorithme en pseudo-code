@@ -1,0 +1,17 @@
+Début calculBonbons valeur absolue (réel ARGENT, réel PRIX)
+
+    entier maxBonbons ← 0
+    
+   Tant que ARGENT >= PRIX :
+      maxBonbons <- maxBonbons +1
+      ARGENT <- ARGENT - PRIX
+   fin Tant que 
+   retourner maxBonbons
+   
+Fin calculBonbons    
+        
+
+
+
+
+

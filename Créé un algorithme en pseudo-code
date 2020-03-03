@@ -1,7 +1,7 @@
 Début calculBonbons (réel ARGENT, réel PRIX)
 
     entier maxBonbons ← 0
-Si ( ARGENT < 0 ) et ( PRIX < 0 ) alors:
+Si ( ARGENT > 0 ) et ( PRIX > 0 ) alors:
     
    Tant que ARGENT >= PRIX :
       maxBonbons <- maxBonbons +1
